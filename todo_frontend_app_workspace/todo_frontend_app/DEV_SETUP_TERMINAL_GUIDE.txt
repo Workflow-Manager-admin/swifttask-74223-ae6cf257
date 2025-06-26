@@ -5,7 +5,7 @@ cd todo_frontend_app_workspace/todo_frontend_app
 npm install
 
 # 3. Configure the frontend to talk to the backend
-echo "VITE_TODO_API_BASE=http://localhost:5000" > .env.local
+echo "VITE_TODO_API_BASE=http://localhost:5001" > .env.local
 
 # 4. Start the Vue development server
 npm run dev

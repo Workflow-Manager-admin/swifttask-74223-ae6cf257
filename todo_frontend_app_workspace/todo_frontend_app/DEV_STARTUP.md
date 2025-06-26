@@ -1,6 +1,6 @@
 # How to Run the Vue Frontend (todo_frontend_app)
 
-These steps will install dependencies and launch the Vue development server, with calls routed to your Flask backend at `http://localhost:5000`.
+These steps will install dependencies and launch the Vue development server, with calls routed to your Flask backend at `http://localhost:5001`.
 
 ## 1. Install Dependencies
 
@@ -12,11 +12,11 @@ npm install
 
 ## 2. Set the API Base URL
 
-The code fetches the API base URL from `import.meta.env.VITE_TODO_API_BASE`. To ensure requests go to the Flask backend (by default on `http://localhost:5000`):
+The code fetches the API base URL from `import.meta.env.VITE_TODO_API_BASE`. To ensure requests go to the Flask backend (now on `http://localhost:5001`):
 
 In the project root (where `package.json` is), create or update a file named `.env.local`:
 ```env
-VITE_TODO_API_BASE=http://localhost:5000
+VITE_TODO_API_BASE=http://localhost:5001
 ```
 > - `.env.local` is loaded by Vite automatically, and takes effect for local development.
 
@@ -61,7 +61,7 @@ cd todo_frontend_app_workspace/todo_frontend_app
 npm install
 
 # 3. Set API base (.env.local)
-echo "VITE_TODO_API_BASE=http://localhost:5000" > .env.local
+echo "VITE_TODO_API_BASE=http://localhost:5001" > .env.local
 
 # 4. Start dev server
 npm run dev
