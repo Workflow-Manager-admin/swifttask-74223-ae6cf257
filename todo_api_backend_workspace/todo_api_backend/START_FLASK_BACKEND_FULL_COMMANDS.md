@@ -59,8 +59,8 @@ flask run
 python run.py
 ```
 
-Your API will be live at: [http://127.0.0.1:5000/](http://127.0.0.1:5000/)  
-Swagger (API docs): [http://localhost:5000/docs/](http://localhost:5000/docs/)
+Your API will be live at: [http://127.0.0.1:5001/](http://127.0.0.1:5001/)  
+Swagger (API docs): [http://localhost:5001/docs/](http://localhost:5001/docs/)
 
 ---
 

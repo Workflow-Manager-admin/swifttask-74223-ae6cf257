@@ -65,7 +65,7 @@ or for hot-reload:
 ```bash
 flask run
 ```
-**Note:** By default, the server will be available at `http://127.0.0.1:5000/`.
+**Note:** By default, the server will be available at `http://127.0.0.1:5001/`.
 
 ---
 
@@ -73,7 +73,7 @@ flask run
 
 Once running, interactive API docs (Swagger UI) will be available at:
 
-- [http://localhost:5000/docs/](http://localhost:5000/docs/)
+- [http://localhost:5001/docs/](http://localhost:5001/docs/)
 
 ---
 

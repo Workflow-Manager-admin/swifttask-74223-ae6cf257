@@ -52,14 +52,14 @@ python run.py
 ```
 
 By default, the server will run at:  
-**http://127.0.0.1:5000/**
+**http://127.0.0.1:5001/**
 
 ---
 
 ## Step 6: Access the Interactive API Docs
 
 Available at:  
-**http://localhost:5000/docs/**
+**http://localhost:5001/docs/**
 
 ---
 
