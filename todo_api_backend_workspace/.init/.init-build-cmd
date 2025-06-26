@@ -1,0 +1,4 @@
+{
+    "command": "python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt",
+    "working_directory": "/home/kavia/workspace/code-generation/swifttask-74223-ae6cf257/todo_api_backend_workspace/todo_api_backend"
+}
